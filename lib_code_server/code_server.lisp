@@ -50,6 +50,6 @@
 
 (defun rcode-run-noret (id code) {
         (canmsg-send id 0 (flatten (list -1 code)))
-})
+run})
 
  @const-end
